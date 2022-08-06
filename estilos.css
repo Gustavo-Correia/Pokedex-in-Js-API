@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+*{
+font-family: 'Mouse Memoirs', sans-serif;;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+
+ background: url(wallpaper.jpg) no-repeat;
+ background-size:  1800px 900px;
+ background-position-x: -50px;
+ background-position-y: -150px;
+ 
+ text-align:left;
+}
+main{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    margin-left: 80px;
+    position: relative;
+}
+.pokedex{
+    width: 100%;
+    height: 100%;
+    max-width: 330px;
+    
+}
+
+.pokemon__image{
+    position: absolute;
+    left: 35%;
+    top: 32%;
+    width: 22%;
+}
+
+.pokemon__data{
+position: absolute;
+font-weight: 800;
+left: 25%;
+top: 53%;
+color: rgb(68, 65, 65);
+letter-spacing: 1px;
+font-size: clamp(2px, 6vw, 20px);
+}
+
+.poke__form{
+    position: absolute;
+    top: 65%;
+    left: 13%;
+    width: 65%;
+    text-align: center;
+    
+}
+
+.input__search{
+    width: 100%;
+    padding: 5%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: 100%;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.buttons{
+position: absolute;
+left: 13%;
+top: 79%;
+width: 65%;
+display: flex;
+gap: 10px;
+
+}
+
+.button{
+width: 100%;
+border-radius: 10px;
+padding: 5%;
+}
+
+.btn-prev:hover{
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+transition: 200ms;
+background-color: rgb(131, 117, 117);
+}
+
+.btn-next:hover{
+cursor: pointer;
+box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+transition: 200ms;
+background-color: rgb(131, 117, 117);
+}
+
+.pokemon__info{
+    position:fixed;
+    top: 25%;
+    left: 23%;
+    color: rgb(20, 4, 245);
+    letter-spacing: 2px;
+    font-size: clamp(5px, 7vw, 18px);
+}

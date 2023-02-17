@@ -107,6 +107,42 @@ background-color: rgb(131, 117, 117);
 
 
 
+
+
+
+@media(max-width: 466px){
+    main h1,
+    main img,
+    main form
+    {
+     float: none;
+     text-align: center;
+     width: 150%;
+    }
+ 
+    
+ body{
+ 
+     max-width: 200%;
+     max-height: 200%;
+     min-width: 119%;
+     min-height: 130%;
+     background-size:  1800px 1000px;
+     background-position-x: -50px;
+     background-position-y: -150px;
+     position: absolute;
+     left: -15%;
+     text-align:left;
+    }
+ }
+ 
+.pokemon__info{
+    margin-bottom: 10%;
+}
+
+
+
+
 @media(max-width: 768px){
    main h1,
    main img,
@@ -115,12 +151,16 @@ background-color: rgb(131, 117, 117);
     float: none;
     text-align: center;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    
    }
 
    
 body{
 
-   
+    max-width: 100%;
+    max-height: 70%;
     background-size:  1800px 1000px;
     background-position-x: -50px;
     background-position-y: -150px;
@@ -194,7 +234,8 @@ body{
     {
      float: none;
      text-align: left;
-     width: 100%;
+     width: 80%;
+    
     }
  
     .pokemon__info{
@@ -210,11 +251,12 @@ body{
             font-size: clamp(5px, 7vw, 25px);
         }
  body{
-     background-size:  1800px 1120px;
+     background-size:  1800px 1230px;
      background-position-x: -50px;
      background-position-y: -150px;
      text-align:left;
     }
+
 
     .buttons{
         position: absolute;
